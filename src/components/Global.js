@@ -31,6 +31,26 @@ export const GlobalStyles = createGlobalStyle`
   button {
     display: block;
   }
+  p{
+    color: ${({ theme }) => theme.text} !important;
+  }
+  // main{
+  //   background-color:${({ theme }) => theme.text} !important;
+  //   color:${({ theme }) => theme.body} !important;
+  //   border-radius:30px;
+  //   padding-top:5px;
+  //   padding-bottom:0px;
+  // }
+  fieldset{
+    border-color:${({ theme }) => theme.primary} !important;
+  }
+  .MuiTypography-colorPrimary{
+    color:${({ theme }) => theme.primary} !important;
+  }
+  .MuiFormLabel-root{
+    color:${({ theme }) => theme.primary} !important;
+  }
+  
   a {
     color: ${({ theme }) => theme.text};
   }
