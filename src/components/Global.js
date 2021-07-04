@@ -34,13 +34,14 @@ export const GlobalStyles = createGlobalStyle`
   p{
     color: ${({ theme }) => theme.text} !important;
   }
-  // main{
+   main{
   //   background-color:${({ theme }) => theme.text} !important;
   //   color:${({ theme }) => theme.body} !important;
-  //   border-radius:30px;
-  //   padding-top:5px;
-  //   padding-bottom:0px;
-  // }
+  // border:1px solid #fff;
+  //    border-radius:30px;
+    //  padding-top:5px;
+    //  padding-bottom:0px;
+   }
   fieldset{
     border-color:${({ theme }) => theme.primary} !important;
   }
@@ -50,7 +51,9 @@ export const GlobalStyles = createGlobalStyle`
   .MuiFormLabel-root{
     color:${({ theme }) => theme.primary} !important;
   }
-  
+  input{
+    color:${({ theme }) => theme.text} !important;
+  }  
   a {
     color: ${({ theme }) => theme.text};
   }
